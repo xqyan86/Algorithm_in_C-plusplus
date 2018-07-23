@@ -1,0 +1,28 @@
+1D array:
+
+Definition:
+
+With initialization           int array[] = {1,2,3};
+                              vector<int> myv = {5,2,3};
+Without initialization
+                              int array[];
+                              vector<int> myv;  // no special length
+                              
+                              int array[3]
+                              vector<int> myv(3);  //give the length
+                             
+Traverse the elements: array[0] = 1, myv[0]=5
+Insert an element: array[3] = 4; myv.push_back[6];
+int N = array.size(); M = myv.size();
+
+**Functions**
+myv.push_back(x); myv.pop_back(); sort(myv.begin(),myv.end());
+
+2D array:
+int arrary[][];
+vector<vector<int>> myv;
+If we need initialization, int array[3][4] = {0}; vector<vector<int>> myv(m, vector<int> (n,0)) 
+but we can't do: int m=3,n=4; int array[m][n] = {0};  
+
+
+
