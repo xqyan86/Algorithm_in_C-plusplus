@@ -3,6 +3,7 @@
 Definition:
 
 With initialization           int array[] = {1,2,3};
+                              int array[4] = {0};
                               vector<int> myv = {5,2,3};
 Without initialization
                               int array[];
